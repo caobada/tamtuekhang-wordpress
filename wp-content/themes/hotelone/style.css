@@ -16,6 +16,52 @@ Text Domain: hotelone
 #menu-trang-chu{
 	padding-top: 15px;
 }
+.chuvang{
+	color:#d69832;
+}
+.chuden{
+	color:#5a300a;
+}
+.title_khuyenmai{
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+.image img:hover{
+	transform: scale(1.1);
+	transition: all 1s;
+}
+.img-gach{
+	text-align: center;
+}
+.img-khuyenmai{
+	text-align: center;
+	list-style: none;
+}
+.img-khuyenmai .title{
+	display: none;
+}
+.image img{
+	padding-bottom: 15px;
+}
+li.type-product.status-publish.has-post-thumbnail .price{
+	text-align: center;
+}
+.woocommerce a.button{
+	color:white;
+	text-align: center;
+	background-color: #f32f42 !important;
+}
+.woocommerce a.button:hover{
+	color:#fff !important;
+	background-color: #ab203e !important;
+}
+.sanpham h2{
+	text-align: center;
+	color:#5a300a;
+	font-size: 1.6em;
+	font-weight: bold;
+}
 ::selection{ 
 	background-color: #caa767; 
 	color: #ffffff; 
@@ -327,6 +373,7 @@ input[type="search"].search-field {
 .logo_centered{
 	float: none;
 }
+
 .menu_centered .navbar-right{
 	float: none !important;
 	width: max-content;
@@ -595,6 +642,7 @@ a.continue:hover, a.continue:focus { color:#ffffff;  opacity: 1; text-decoration
 .post-content{
 	background-color: #ffffff;
 	padding: 25px 30px;
+	background-image: url(http://localhost/WebAnhThi/TamTueKhang/wp-content/uploads/2018/09/1-1.png);
 }
 .post-content li > ul, 
 .post-content li > ol, 

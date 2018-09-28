@@ -86,6 +86,14 @@
 /**
  * @global int $content_width
  */
+function stheme_add_boostrap() {
+    wp_register_style('bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css');
+    wp_enqueue_style('bootstrap-style');
+     
+    wp_register_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array(), false, true);
+    wp_enqueue_script('bootstrap');
+}
+add_action('wp_enqueue_scripts', 'stheme_add_boostrap');
 function hotelone_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'hotelone_content_width', 800 );
 }
