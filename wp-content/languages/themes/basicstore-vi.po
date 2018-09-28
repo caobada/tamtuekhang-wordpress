@@ -1,0 +1,758 @@
+# Translation of Themes - BasicStore in Vietnamese
+# This file is distributed under the same license as the Themes - BasicStore package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-21 11:32:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Themes - BasicStore\n"
+
+#. Description of the plugin/theme
+msgid "Basicstore is a free theme for shop owners using WooCommerce who like the bootstrap framework and want a clean design"
+msgstr "Basicstore là giao diện bán hàng miễn phí sử dụng WooCommerce với bootstrap framework và thiết kế gọn gàng"
+
+#. Theme Name of the plugin/theme
+msgid "BasicStore"
+msgstr "BasicStore"
+
+#: comments.php:68
+msgid "Newer Comments &raquo;"
+msgstr "Bình luận mới &raquo;"
+
+#: comments.php:67
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Bình luận cũ"
+
+#: woocommerce/checkout/terms.php:26
+msgid "I&rsquo;ve read and accept the <a href=\"%s\" class=\"woocommerce-terms-and-conditions-link\">terms &amp; conditions</a>"
+msgstr "Tôi đã đọc và chấp nhận <a href=\"%s\" class=\"woocommerce-terms-and-conditions-link\">điều khoản sử dụng</a>"
+
+#: tpl-home.php:23
+msgid "Latest Products"
+msgstr "Sản phẩm mới"
+
+#: tpl-home.php:41
+msgid "Top Rated Products"
+msgstr "Top sản phẩm được đánh giá"
+
+#: tpl-home.php:32
+msgid "Featured Products"
+msgstr "Sản phẩm nổi bật"
+
+#: inc/customizer.php:41
+msgid "BasicStore Plus"
+msgstr "BasicStore Plus"
+
+#. Template Name of the plugin/theme
+msgid "Front Page"
+msgstr "Trang chủ"
+
+#: inc/options.php:56
+msgid "Show or Hide Featured Products"
+msgstr "Hiển thị hoặc ẩn sản phẩm nổi bật"
+
+#: inc/options.php:39
+msgid "Show or Hide Latest Products"
+msgstr "Hiển thị hoặc ẩn sản phẩm mới nhất"
+
+#: inc/options.php:23
+msgid "Front Page Options"
+msgstr "Thay đổi trang chủ"
+
+#: inc/options.php:13
+msgid "Theme Option"
+msgstr "Cài đặt giao diện"
+
+#: functions.php:149
+msgid "Home Widget"
+msgstr "Home Widget"
+
+#: inc/options.php:90
+msgid "Show or Hide Product Categories"
+msgstr "Hiển thị hoặc ẩn danh mục sản phẩm"
+
+#: inc/options.php:73
+msgid "Show or Hide Top Rated Products"
+msgstr "Hiển thị hoặc ẩn top sản phẩm được đánh giá"
+
+#: tpl-home.php:50
+msgid "Product Categories"
+msgstr "Danh mục sản phẩm"
+
+#: inc/customizer.php:42
+msgid "Upgrade to PRO"
+msgstr "Nâng cấp lên bản PRO"
+
+#: functions.php:151
+msgid "Add widgets for HomePage"
+msgstr "Thêm widget vào trang chủ"
+
+#: woocommerce/single-product/review-meta.php:28
+msgid "Your review is awaiting approval"
+msgstr "Bình luận của bạn đang được chờ duyệt"
+
+#: woocommerce/single-product/product-attributes.php:35
+msgid "Dimensions"
+msgstr "Kích thước"
+
+#. translators: 1: order number 2: order date 3: order status
+#: woocommerce/myaccount/view-order.php:29
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr "Đơn hàng #%1$s được đặt vào %2$s và hiện tại là %3$s."
+
+#: woocommerce/myaccount/my-orders.php:83
+msgid "Cancel"
+msgstr "Hủy"
+
+#: woocommerce/myaccount/my-orders.php:79
+msgid "View"
+msgstr "Xem chi tiết"
+
+#: woocommerce/myaccount/my-orders.php:30
+msgid "Recent orders"
+msgstr "Những đơn hàng gần đây"
+
+#: woocommerce/myaccount/my-orders.php:15
+msgid "Status"
+msgstr "Trạng thái"
+
+#: woocommerce/myaccount/my-orders.php:14
+msgid "Date"
+msgstr "Ngày"
+
+#: woocommerce/myaccount/my-orders.php:13
+msgid "Order"
+msgstr "Đơn hàng"
+
+#: woocommerce/myaccount/my-address.php:53
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: woocommerce/myaccount/my-address.php:72
+msgid "You have not set up this type of address yet."
+msgstr "Bạn vẫn chưa thiết lập loại địa chỉ này."
+
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr "Địa chỉ dưới đây sẽ được sử dụng để làm địa chỉ thanh toán các lần tiếp theo."
+
+#: woocommerce/myaccount/lost-password-confirmation.php:27
+msgid "A password reset email has been sent to the email address on file for your account, but may take several minutes to show up in your inbox. Please wait at least 10 minutes before attempting another reset."
+msgstr "Một EMAIL TẠO MỚI MẬT KHẨU đã được gửi vào email đăng ký của bạn. Vui lòng kiểm tra để sử dụng. Nếu chưa có trong hòm thư vui lòng kiểm tra hòm thư SPAM hoặc đợi khoảng 10 đến 30 phút, hệ thống đang xử lý yêu cầu của bạn."
+
+#: woocommerce/myaccount/lost-password-confirmation.php:24
+msgid "Password reset email has been sent."
+msgstr "Email tạo mới mật khẩu đã được gửi tới bạn."
+
+#: woocommerce/product-searchform.php:26
+msgid "Search products&hellip;"
+msgstr "Tìm sản phẩm&hellip;"
+
+#: woocommerce/order/order-details-customer.php:67
+#: woocommerce/order/order-details-customer.php:85
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/order/order-details-customer.php:47
+msgid "Phone:"
+msgstr "Số điện thoại:"
+
+#: woocommerce/checkout/thankyou.php:57
+#: woocommerce/order/order-details-customer.php:40
+msgid "Email:"
+msgstr "Địa chỉ email:"
+
+#: woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr "Trọng lượng"
+
+#: woocommerce/single-product/add-to-cart/variable.php:43
+msgid "Clear"
+msgstr "Xóa"
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr "Sản phẩm này hiện đang hết hàng và không thể đặt hàng ngay."
+
+#: woocommerce/order/order-details-customer.php:33
+msgid "Note:"
+msgstr "Ghi chú:"
+
+#: woocommerce/order/order-details-customer.php:27
+msgid "Customer details"
+msgstr "Thông tin khách hàng"
+
+#: woocommerce/order/order-again.php:25
+msgid "Order again"
+msgstr "Đặt hàng lại"
+
+#: woocommerce/myaccount/view-order.php:43
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr "l jS \\o\\f F Y, h:ia"
+
+#: woocommerce/myaccount/my-orders.php:55 woocommerce/myaccount/orders.php:51
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: woocommerce/myaccount/view-order.php:37
+msgid "Order updates"
+msgstr "Đơn hàng cập nhật"
+
+#: woocommerce/myaccount/downloads.php:99 woocommerce/myaccount/orders.php:101
+msgid "Go shop"
+msgstr "Tới cửa hàng"
+
+#. translators: 1: formatted order total 2: total order items
+#: woocommerce/myaccount/my-orders.php:67 woocommerce/myaccount/orders.php:63
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] "%1$s cho %2$s món"
+
+#: woocommerce/product-searchform.php:25
+msgid "Search for:"
+msgstr "Tìm:"
+
+#: woocommerce/single-product/review-meta.php:36
+msgid "verified owner"
+msgstr "chủ sở hữu đã xác thực"
+
+#: woocommerce/single-product/add-to-cart/variation.php:31
+msgid "Sorry, this product is unavailable. Please choose a different combination."
+msgstr "Xin lỗi, sản phẩm này không có sẵn. Vui lòng chọn một sản phẩm khác."
+
+#: woocommerce/myaccount/payment-methods.php:73
+msgid "No saved methods found."
+msgstr "Không có phương thức được lưu nào."
+
+#. translators: 1: credit card type 2: last 4 digits
+#: woocommerce/myaccount/payment-methods.php:52
+msgid "%1$s ending in %2$s"
+msgstr "%1$s kết thúc bằng 4 số %2$s"
+
+#: woocommerce/myaccount/orders.php:103
+msgid "No order has been made yet."
+msgstr "Chưa có đơn hàng nào."
+
+#: woocommerce/myaccount/form-login.php:105
+msgid "Anti-spam"
+msgstr "Anti-spam"
+
+#: woocommerce/myaccount/form-login.php:75
+#: woocommerce/myaccount/form-login.php:111
+msgid "Register"
+msgstr "Đăng ký"
+
+#: woocommerce/myaccount/form-login.php:44
+msgid "Username or email address"
+msgstr "Username hoặc địa chỉ email"
+
+#: woocommerce/myaccount/form-edit-address_.php:52
+msgid "Save address"
+msgstr "Lưu địa chỉ"
+
+#: woocommerce/myaccount/form-edit-address_.php:23
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/order/order-details-customer.php:82
+msgid "Shipping address"
+msgstr "Địa chỉ nhận hàng"
+
+#: woocommerce/myaccount/form-edit-address_.php:23
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+#: woocommerce/order/order-details-customer.php:64
+msgid "Billing address"
+msgstr "Địa chỉ thanh toán"
+
+#: woocommerce/myaccount/form-login.php:91
+msgid "Email address"
+msgstr "Địa chỉ email"
+
+#: woocommerce/myaccount/payment-methods.php:79
+msgid "Add payment method"
+msgstr "Thêm phương thức thanh toán"
+
+#: woocommerce/myaccount/downloads.php:101
+msgid "No downloads available yet."
+msgstr "Chưa có file nào sẵn sàng để tải xuống."
+
+#: woocommerce/myaccount/downloads.php:77
+msgid "Download"
+msgstr "Tải xuống"
+
+#: woocommerce/myaccount/downloads.php:69
+msgid "Never"
+msgstr "Chưa bao giờ"
+
+#: woocommerce/myaccount/downloads.php:63
+msgid "&infin;"
+msgstr "&infin;"
+
+#: woocommerce/loop/sale-flash.php:28
+#: woocommerce/single-product/sale-flash.php:28
+msgid "Sale!"
+msgstr "Đang giảm giá!"
+
+#: woocommerce/global/form-login.php:55 woocommerce/myaccount/form-login.php:62
+msgid "Lost your password?"
+msgstr "Mất mật khẩu?"
+
+#: woocommerce/global/form-login.php:48 woocommerce/myaccount/form-login.php:37
+#: woocommerce/myaccount/form-login.php:56
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: woocommerce/global/form-login.php:51 woocommerce/myaccount/form-login.php:58
+msgid "Remember me"
+msgstr "Lưu lại lần sau"
+
+#: woocommerce/global/form-login.php:39 woocommerce/myaccount/form-login.php:48
+#: woocommerce/myaccount/form-login.php:98
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: woocommerce/global/form-login.php:35
+msgid "Username or email"
+msgstr "Username hoặc địa chỉ email"
+
+#: woocommerce/checkout/thankyou.php:70
+msgid "Payment method:"
+msgstr "Hình thức thanh toán:"
+
+#: woocommerce/checkout/thankyou.php:63
+msgid "Total:"
+msgstr "Tổng tiền:"
+
+#: woocommerce/checkout/thankyou.php:51
+msgid "Date:"
+msgstr "Ngày:"
+
+#: woocommerce/checkout/thankyou.php:46
+msgid "Order number:"
+msgstr "Số đơn hàng:"
+
+#: woocommerce/checkout/thankyou.php:41 woocommerce/checkout/thankyou.php:85
+msgid "Thank you. Your order has been received."
+msgstr "Cảm ơn. Bạn đã tạo đơn hàng thành công."
+
+#: woocommerce/checkout/thankyou.php:35
+msgid "My account"
+msgstr "Tài khoản của bạn"
+
+#: woocommerce/checkout/thankyou.php:33 woocommerce/myaccount/my-orders.php:75
+msgid "Pay"
+msgstr "Thanh toán"
+
+#: woocommerce/cart/shipping-calculator.php:98
+#: woocommerce/checkout/payment.php:43
+msgid "Update totals"
+msgstr "Cập nhật tổng tiền"
+
+#: woocommerce/checkout/form-shipping.php:63
+msgid "Additional information"
+msgstr "Thông tin thêm"
+
+#: woocommerce/cart/shipping-calculator.php:33
+msgid "Calculate shipping"
+msgstr "Tính phí vận chuyển"
+
+#: woocommerce/cart/proceed-to-checkout-button.php:27
+msgid "Proceed to checkout"
+msgstr "Tiếp tục thanh toán"
+
+#: woocommerce/cart/mini-cart.php:80
+msgid "No products in the cart."
+msgstr "Không có sản phẩm trong giỏ hàng"
+
+#: woocommerce/cart/cross-sells.php:27
+msgid "You may be interested in&hellip;"
+msgstr "Bạn có thể thích &hellip;"
+
+#: woocommerce/cart/cart.php:142
+msgid "Update cart"
+msgstr "Cập nhật giỏ hàng"
+
+#: woocommerce/cart/cart.php:137 woocommerce/checkout/form-coupon.php:40
+msgid "Apply coupon"
+msgstr "Áp dụng"
+
+#: woocommerce/cart/cart.php:137 woocommerce/checkout/form-coupon.php:36
+msgid "Coupon code"
+msgstr "Mã giảm giá"
+
+#: woocommerce/cart/cart.php:59 woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr "Bỏ sản phẩm này"
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:102
+msgid "Quantity"
+msgstr "Số lượng"
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:96
+msgid "Price"
+msgstr "Giá tiền"
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:78
+#: woocommerce/checkout/form-pay.php:29
+#: woocommerce/checkout/review-order.php:26
+msgid "Product"
+msgstr "Sản phẩm"
+
+#: searchform.php:19 woocommerce/product-searchform.php:27
+msgctxt "submit button"
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: inc/wp-bootstrap-pagination.php:14
+msgid "Page Navigation"
+msgstr "Phân trang"
+
+#: inc/wp-bootstrap-pagination.php:13 woocommerce/myaccount/orders.php:93
+msgid "Next"
+msgstr "Tiếp theo"
+
+#: inc/woocommerce.php:101
+msgid "Cart"
+msgstr "Giỏ hàng"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:72 template-parts/content-page.php:35
+msgid "Edit %s"
+msgstr "Chỉnh sửa %s"
+
+#: inc/template-tags.php:52
+msgid "Posted in %1$s"
+msgstr "Được viết trong %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ", "
+
+#: comments.php:103
+msgid "Website"
+msgstr "Trang web"
+
+#: comments.php:97
+msgid "Email"
+msgstr "Địa chỉ email"
+
+#: comments.php:91
+msgid "Name"
+msgstr "Họ và tên"
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr "Bình luận đã bị khóa."
+
+#: comments.php:65
+msgid "Comment navigation"
+msgstr "Phân trang bình luận"
+
+#: 404.php:23
+msgid "Go to homepage"
+msgstr "Về trang chủ"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Lỗi không tìm thấy trang web."
+
+#: woocommerce/checkout/form-pay.php:81
+msgid "Sorry, it seems that there are no available payment methods for your location. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr "Xin lỗi, hình như không có hình thức thanh toán nào phù hợp với khu vực của bạn. Vui lòng liên hệ với chúng tôi nếu bạn cần trợ giúp."
+
+#: woocommerce/checkout/form-pay.php:31
+msgid "Totals"
+msgstr "Tổng tiền"
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Click here to enter your code"
+msgstr "Nhấp chuột vào để thêm mã giảm giá"
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Have a coupon?"
+msgstr "Bạn có mã giảm giá?"
+
+#: woocommerce/checkout/form-checkout.php:55
+msgid "Your order"
+msgstr "Đơn hàng của bạn"
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr "Bạn phải đăng nhập mới thanh toán được."
+
+#: woocommerce/checkout/form-billing.php:61
+msgid "Create an account?"
+msgstr "Tạo tài khoản?"
+
+#: woocommerce/checkout/form-billing.php:33
+msgid "Billing details"
+msgstr "Chi tiết hóa đơn"
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr "Thanh toán &amp; Vận chuyển"
+
+#: woocommerce/checkout/cart-errors.php:31
+msgid "Return to cart"
+msgstr "Quay trở lại giỏ hàng"
+
+#: woocommerce/checkout/cart-errors.php:27
+msgid "There are some issues with the items in your cart (shown above). Please go back to the cart page and resolve these issues before checking out."
+msgstr "Có một số vấn đề với sản phẩm trong giỏ hàng của bạn. Vui lòng quay lại trang giỏ hàng để thay đổi trước khi tiến thanh thanh toán."
+
+#: woocommerce/cart/shipping-calculator.php:93
+msgid "Postcode / ZIP"
+msgstr "Postcode / ZIP"
+
+#: woocommerce/cart/shipping-calculator.php:85
+msgid "City"
+msgstr "Thành phố"
+
+#: woocommerce/cart/shipping-calculator.php:64
+msgid "Select a state&hellip;"
+msgstr "Chọn một bang&hellip;"
+
+#: woocommerce/checkout/thankyou.php:30
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr "Rất tiếc, đơn hàng của bạn không thể xử lý do ngân hàng hoặc người bán đã từ chối giao dịch. Vui lòng thử mua hàng lại."
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr "Vui lòng điện thông tin của bạn để thấy hình thức thanh toán phù hợp."
+
+#: woocommerce/checkout/payment.php:35
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr "Xin lỗi, hình như không có hình thức thanh toán nào phù hợp tại khu vực của bạn. Vui lòng liên hệ với chúng tôi để được hỗ trợ."
+
+#: woocommerce/checkout/form-shipping.php:29
+msgid "Ship to a different address?"
+msgstr "Giao hàng tới địa chỉ khác?"
+
+#: inc/template-tags.php:33
+msgctxt "post author"
+msgid "by %s"
+msgstr "bởi %s"
+
+#: header.php:37
+msgid "Toggle navigation"
+msgstr "Thay đổi điều hướng"
+
+#: woocommerce/cart/shipping-calculator.php:57
+#: woocommerce/cart/shipping-calculator.php:63
+#: woocommerce/cart/shipping-calculator.php:76
+msgid "State / County"
+msgstr "Khu vực"
+
+#: woocommerce/cart/shipping-calculator.php:39
+msgid "Select a country&hellip;"
+msgstr "Lựa chọn một quốc gia&hellip;"
+
+#: woocommerce/cart/cart-totals.php:92 woocommerce/cart/cart-totals.php:93
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:119
+#: woocommerce/checkout/review-order.php:27
+#: woocommerce/checkout/review-order.php:106
+#: woocommerce/myaccount/my-orders.php:16
+msgid "Total"
+msgstr "Tổng"
+
+#: woocommerce/cart/cart-totals.php:55 woocommerce/cart/cart-totals.php:56
+msgid "Shipping"
+msgstr "Giao hàng"
+
+#: woocommerce/cart/cart-totals.php:33 woocommerce/cart/cart-totals.php:34
+#: woocommerce/cart/mini-cart.php:72 woocommerce/checkout/review-order.php:59
+msgid "Subtotal"
+msgstr "Tạm tính"
+
+#: woocommerce/cart/cart-totals.php:71
+msgid "(estimated for %s)"
+msgstr "(ước tính %s)"
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart totals"
+msgstr "Tổng giỏ hàng"
+
+#: woocommerce/cart/cart-shipping.php:48
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr "Phí giao hàng sẽ được tính sau khi bạn nhập địa chỉ vào đơn hàng."
+
+#: woocommerce/cart/cart-empty.php:33
+msgid "Return to shop"
+msgstr "Quay trở lại cửa hàng"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:45
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Tiếp tục đọc %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-page.php:23 template-parts/content.php:50
+msgid "Pages:"
+msgstr "Trang:"
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bạn đã sẵn sàng để xuất bản bài đầu tiên? <a href=\"%1$s\">Bắt đầu tại đây</a>."
+
+#: woocommerce/myaccount/form-login.php:84
+msgid "Username"
+msgstr "Tài khoản"
+
+#: woocommerce/loop/no-products-found.php:24
+msgid "No products were found matching your selection."
+msgstr "Không có sản phẩm nào trùng với lựa chọn của bạn."
+
+#: woocommerce/cart/cart.php:137
+msgid "Coupon:"
+msgstr "Mã giảm giá:"
+
+#: woocommerce/cart/cart.php:91
+msgid "Available on backorder"
+msgstr "Có sẵn để đặt lấy sau"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Không tìm thấy"
+
+#: searchform.php:17
+msgctxt "label"
+msgid "Search for"
+msgstr "Tìm kiếm"
+
+#: searchform.php:17
+msgctxt "placeholder"
+msgid "Search"
+msgstr "Tìm"
+
+#: searchform.php:15
+msgctxt "label"
+msgid "Search for:"
+msgstr "Tìm:"
+
+#: search.php:24
+msgid "Search Results for: %s"
+msgstr "Tìm kiếm cho: %s"
+
+#: inc/wp-bootstrap-pagination.php:12 woocommerce/myaccount/orders.php:89
+msgid "Previous"
+msgstr "Trước"
+
+#: inc/template-tags.php:58
+msgid "Tagged %1$s"
+msgstr "Được gắn tag %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:65
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Viết bình luận <span class=\"screen-reader-text\"> trong %s</span>"
+
+#: comments.php:112
+msgctxt "noun"
+msgid "Comment"
+msgstr "Bình luận"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:40
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s bình luận trong &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:34
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Một bình luận trong &ldquo;%s&rdquo;"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. You may start from the homepage "
+msgstr "Rất tiếc, nội dung không tồn tại. Vui lòng quay trở lại trang chủ để bắt đầu lại."
+
+#: woocommerce/checkout/form-pay.php:30
+msgid "Qty"
+msgstr "SL"
+
+#: inc/template-tags.php:28
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Được viết vào %s"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Chuyển tới nội dung"
+
+#: functions.php:181
+msgid "Add widgets here."
+msgstr "Thêm widget ở đây."
+
+#: functions.php:179
+msgid "Footer"
+msgstr "Cuối trang"
+
+#: functions.php:171
+msgid "Add widgets here to display on shop pages"
+msgstr "Thêm widget ở đây để hiển thị trong trang Cửa hàng"
+
+#: functions.php:169
+msgid "Shop Sidebar"
+msgstr "Sidebar cửa hàng"
+
+#: functions.php:161
+msgid "Add widgets here to display on site pages"
+msgstr "Thêm widget ở đây để hiển thị trong các trang khác"
+
+#: functions.php:159
+msgid "Blog Sidebar"
+msgstr "Sidebar bài viết"
+
+#: functions.php:51
+msgid "Primary Right"
+msgstr "Chính - Bên phải"
+
+#: functions.php:50
+msgid "Primary Left"
+msgstr "Chính - Bên trái"
+
+#: footer.php:49
+msgid "Theme: %1$s by %2$s"
+msgstr "Giao diện %1$s thiết kế bởi %2$s"
+
+#: footer.php:45
+msgid "Proudly powered by %1$s"
+msgstr "Tự hào làm bằng mã nguồn %1$s"
+
+#: footer.php:43
+msgid "All Rights Reserved"
+msgstr "Tất cả nội dung được bảo lưu"
+
+#: woocommerce/cart/cart-shipping.php:50
+msgid "There are no shipping methods available. Please double check your address, or contact us if you need any help."
+msgstr "Không có hình thức giao hàng nào phù hợp. Vui lòng kiểm tra lại địa chỉ của bạn hoặc liên hệ với chúng tôi để được hỗ trợ."
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Chúng tôi không thể tìm thấy nội dung bạn đang tìm kiếm. Hãy thử lại bằng công cụ tìm kiếm."
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Xin lỗi, trang web hiện không có nội dung nào phù hợp với từ khóa bạn cần tìm. Vui lòng thử bằng một từ khóa khác."
+
+#: woocommerce/checkout/payment.php:42
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the <em>Update Totals</em> button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr "Bởi vì trình duyệt của bạn không hỗ trợ Javascript hoặc nó bị tắt, vui lòng nhấp chuột vào <em>Cập nhật tạm tính</em> trước khi đặt hàng. Bạn có thể bị tính nhiều hơn nếu bạn quên làm điều này."
+
+#. Theme URI of the plugin/theme
+msgid "http://demo.theme.al/basicstore/"
+msgstr "http://demo.theme.al/basicstore/"
+
+#. Author URI of the plugin/theme
+msgid "https://wpcodefactory.com/author/theme-al/"
+msgstr "https://wpcodefactory.com/author/theme-al/"
+
+#. Author of the plugin/theme
+msgid "Theme.al"
+msgstr "Theme.al"
