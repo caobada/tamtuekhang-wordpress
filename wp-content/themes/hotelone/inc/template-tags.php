@@ -527,9 +527,9 @@ function hotelone_author_detail(){
 			<li class="Linked-In"><a href="<?php echo esc_url($author_linkedin); ?>" title="Linked In" rel="tooltip"><i class="fa fa-linkedin"></i></a></li>
 			<?php endif; ?>
 			
-			<?php if($author_youtube && $author_youtube!=''): ?>
-			<li class="Youtube"><a href="<?php echo esc_url($author_youtube); ?>" title="Youtube" rel="tooltip"><i class="fa fa-youtube-play"></i></a></li>										
-			<?php endif; ?>
+
+			<li class="Youtube"><a href="https://www.youtube.com/channel/UCXWpTHjH-peVZkAylsvguzw?>" title="Youtube" rel="tooltip"><i class="fa fa-youtube-play"></i></a></li>										
+		
 			
 		</ul>
 	</div>

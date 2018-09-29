@@ -41,11 +41,23 @@ Text Domain: hotelone
 .img-khuyenmai .title{
 	display: none;
 }
+.khuyemai{
+	padding-top: 15px;
+}
+.gioithieu{
+	color: #333;
+}
 .image img{
 	padding-bottom: 15px;
 }
-li.type-product.status-publish.has-post-thumbnail .price{
+.show-sp li.type-product.status-publish.has-post-thumbnail .price{
 	text-align: center;
+}
+.cart-top a{
+	color:#fff;
+}
+.nj-facebook-messenger{
+	margin-bottom: 10px;
 }
 .woocommerce a.button{
 	color:white;
@@ -61,6 +73,13 @@ li.type-product.status-publish.has-post-thumbnail .price{
 	color:#5a300a;
 	font-size: 1.6em;
 	font-weight: bold;
+}
+.loikhuyen{
+	padding-top: 20px;
+}
+.loikhuyen p{
+	color: #fff;
+	text-align: center;
 }
 ::selection{ 
 	background-color: #caa767; 
@@ -641,7 +660,7 @@ a.continue:hover, a.continue:focus { color:#ffffff;  opacity: 1; text-decoration
 }
 .post-content{
 	background-color: #ffffff;
-	padding: 25px 30px;
+	padding: 0px 15px 30px 15px;
 	background-image: url(http://localhost/WebAnhThi/TamTueKhang/wp-content/uploads/2018/09/1-1.png);
 }
 .post-content li > ul, 
@@ -676,10 +695,14 @@ a.continue:hover, a.continue:focus { color:#ffffff;  opacity: 1; text-decoration
 .post-content h3,
 .entry-summary h3,
 .comment-content h3 {
-	font-size: 23px;
-	line-height: 1.2173913043;
-	margin-top: 2.4347826087em;
-	margin-bottom: 1.2173913043em;
+	font-size: 15px;
+	font-weight: bold;
+	color:#fff;
+	text-align: center;	
+
+}
+.post-content .lk{
+	background-color: #ab203e;
 }
 
 .post-content h4,

@@ -26,8 +26,11 @@ if( !$disable_tb ){
 					<?php if( $facebook_url ){ ?>
 					<li class="facebook"><a href="<?php echo esc_url( $facebook_url ); ?>" <?php if($social_target){ echo 'target="_blank"'; }?>><i class="fa fa-facebook"></i></a></li>
 					<?php } ?>
+					<li class="youtube"><a href="https://www.youtube.com/channel/UCXWpTHjH-peVZkAylsvguzw" target="_blank";><i class="fa fa-youtube"></i></a></li>
+					<li class="google-plus"><a href="mailto:tamtuekhang@gmail.com target="_blank"><i class="fa fa-google-plus"></i></a></li>
 					<?php if( $twitter_url ){ ?>
 					<li class="twitter"><a href="<?php echo esc_url( $twitter_url ); ?>" <?php if($social_target){ echo 'target="_blank"'; }?>><i class="fa fa-twitter"></i></a></li>
+					
 					<?php } ?>
 					<?php if( $google_plus_url ){ ?>
 					<li class="google-plus"><a href="<?php echo esc_url( $google_plus_url ); ?>" <?php if($social_target){ echo 'target="_blank"'; }?>><i class="fa fa-google-plus"></i></a></li>
@@ -36,9 +39,10 @@ if( !$disable_tb ){
 			</div>
 			<div class="col-md-6">
 				<ul class="header-info pull-right">
+				<li class="cart-top"><a href="<?php echo WC()->cart->get_cart_url(); ?>"><i class="fa fa-shopping-cart"></i><?php echo sprintf (_n( '(%d)', '(%d)', WC()->cart->cart_contents_count ), WC()->cart->cart_contents_count ); ?></a></li>|
 					<?php if( $phone ){ ?>
 					<li><i class="fa fa-phone"></i> <?php echo esc_html( $phone ); ?></li>
-					<?php } ?>
+					<?php } ?>|
 					<?php if( $email ){ ?>
 					<li><i class="fa fa-envelope"></i> <?php echo esc_html( $email ); ?></li>
 					<?php } ?>
